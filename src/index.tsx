@@ -1,10 +1,16 @@
 import React from 'react'
 import * as ReactDOM from 'react-dom'
+import {App} from "./app"
+import {Sandbox} from "./sandbox";
+
+
 
 const root = (
-    <React.StrictMode>
-        <h1>React hello</h1>
-    </React.StrictMode>
+    <>
+        {/*<App />*/}
+
+        <Sandbox />
+    </>
 )
 
 
